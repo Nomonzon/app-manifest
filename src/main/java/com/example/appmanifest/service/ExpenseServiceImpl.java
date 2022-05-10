@@ -23,9 +23,8 @@ public class ExpenseServiceImpl {
 
     /**
      * This method is for getting all expenses from the database;
-     * @return
+     * @return List<Expense>
      */
-
     public List<Expense> getAllExpenses(){
         return expenseRepo.findAll();
     }
